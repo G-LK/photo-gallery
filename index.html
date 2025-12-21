@@ -10,78 +10,70 @@
     <div class="container">
         <header>
             <h1>Photo Gallery</h1>
-            <p class="subtitle">Capturing moments, one frame at a time</p>
+            <p class="subtitle">Picture the time</p>
         </header>
 
         <div class="gallery" id="gallery">
-            <!-- Sample photo cards - replace with your own -->
-            <div class="photo-card" onclick="openLightbox('https://images.unsplash.com/photo-1506905925346-21bda4d32df4?w=800')">
+            <!-- Each card now links to a category page -->
+            <a href="mountains.html" class="photo-card">
                 <div class="photo-wrapper">
                     <img src="https://images.unsplash.com/photo-1506905925346-21bda4d32df4?w=800" alt="Mountain Landscape">
                 </div>
                 <div class="photo-info">
-                    <div class="photo-title">Mountain Vista</div>
-                    <div class="photo-description">Breathtaking views from the summit</div>
+                    <div class="photo-title">Mountains</div>
+                    <div class="photo-description">Peaks, valleys, and alpine adventures</div>
                 </div>
-            </div>
+            </a>
 
-            <div class="photo-card" onclick="openLightbox('https://images.unsplash.com/photo-1470071459604-3b5ec3a7fe05?w=800')">
+            <a href="forests.html" class="photo-card">
                 <div class="photo-wrapper">
                     <img src="https://images.unsplash.com/photo-1470071459604-3b5ec3a7fe05?w=800" alt="Forest Path">
                 </div>
                 <div class="photo-info">
-                    <div class="photo-title">Forest Trail</div>
-                    <div class="photo-description">A peaceful walk through nature</div>
+                    <div class="photo-title">Forests</div>
+                    <div class="photo-description">Woodland trails and green canopies</div>
                 </div>
-            </div>
+            </a>
 
-            <div class="photo-card" onclick="openLightbox('https://images.unsplash.com/photo-1469474968028-56623f02e42e?w=800')">
+            <a href="sunsets.html" class="photo-card">
                 <div class="photo-wrapper">
                     <img src="https://images.unsplash.com/photo-1469474968028-56623f02e42e?w=800" alt="Lake Sunset">
                 </div>
                 <div class="photo-info">
-                    <div class="photo-title">Golden Hour</div>
-                    <div class="photo-description">Sunset over the calm waters</div>
+                    <div class="photo-title">Sunsets</div>
+                    <div class="photo-description">Golden hours and colorful skies</div>
                 </div>
-            </div>
+            </a>
 
-            <div class="photo-card" onclick="openLightbox('https://images.unsplash.com/photo-1441974231531-c6227db76b6e?w=800')">
+            <a href="deserts.html" class="photo-card">
                 <div class="photo-wrapper">
                     <img src="https://images.unsplash.com/photo-1441974231531-c6227db76b6e?w=800" alt="Desert Landscape">
                 </div>
                 <div class="photo-info">
-                    <div class="photo-title">Desert Dreams</div>
-                    <div class="photo-description">Vast open spaces and endless skies</div>
+                    <div class="photo-title">Deserts</div>
+                    <div class="photo-description">Vast landscapes and endless horizons</div>
                 </div>
-            </div>
+            </a>
 
-            <div class="photo-card" onclick="openLightbox('https://images.unsplash.com/photo-1426604966848-d7adac402bff?w=800')">
-                <div class="photo-wrapper">
-                    <img src="https://images.unsplash.com/photo-1426604966848-d7adac402bff?w=800" alt="Forest Canopy">
-                </div>
-                <div class="photo-info">
-                    <div class="photo-title">Into the Woods</div>
-                    <div class="photo-description">Exploring the green canopy</div>
-                </div>
-            </div>
-
-            <div class="photo-card" onclick="openLightbox('https://images.unsplash.com/photo-1472214103451-9374bd1c798e?w=800')">
+            <a href="oceans.html" class="photo-card">
                 <div class="photo-wrapper">
                     <img src="https://images.unsplash.com/photo-1472214103451-9374bd1c798e?w=800" alt="Coastal View">
                 </div>
                 <div class="photo-info">
-                    <div class="photo-title">Ocean Breeze</div>
-                    <div class="photo-description">Where the land meets the sea</div>
+                    <div class="photo-title">Oceans</div>
+                    <div class="photo-description">Coastal views and seaside moments</div>
                 </div>
-            </div>
-        </div>
-    </div>
+            </a>
 
-    <!-- Lightbox -->
-    <div class="lightbox" id="lightbox" onclick="closeLightbox(event)">
-        <div class="lightbox-content">
-            <button class="lightbox-close" onclick="closeLightbox(event)">&times;</button>
-            <img id="lightbox-img" src="" alt="Full size image">
+            <a href="wildlife.html" class="photo-card">
+                <div class="photo-wrapper">
+                    <img src="https://images.unsplash.com/photo-1426604966848-d7adac402bff?w=800" alt="Wildlife">
+                </div>
+                <div class="photo-info">
+                    <div class="photo-title">Wildlife</div>
+                    <div class="photo-description">Animals in their natural habitat</div>
+                </div>
+            </a>
         </div>
     </div>
 
