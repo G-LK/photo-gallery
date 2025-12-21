@@ -156,3 +156,39 @@ h1 {
         padding: 10px;
     }
 }
+
+/* Add to your style.css */
+.photo-card {
+    text-decoration: none;
+    color: inherit;
+    display: block;
+}
+
+.back-button {
+    display: inline-block;
+    margin: 20px;
+    padding: 12px 24px;
+    background: white;
+    color: #667eea;
+    text-decoration: none;
+    border-radius: 8px;
+    font-weight: 600;
+    transition: transform 0.2s ease;
+}
+
+.back-button:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 4px 12px rgba(0,0,0,0.2);
+}
+
+.category-header {
+    text-align: center;
+    color: white;
+    padding: 20px;
+    margin-bottom: 20px;
+}
+
+.category-header h2 {
+    font-size: 2.5em;
+    margin-bottom: 10px;
+}
