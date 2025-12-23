@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mountains - My Photo Gallery</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <a href="index.html" class="back-button">← Back to Gallery</a>
+        
+        <div class="category-header">
+            <h2>Paysage</h2>
+            <p>Les paysages aux alentours</p>
+        </div>
+
+        <div class="gallery">
+            <!-- Add your mountain photos here -->
+            <div class="photo-card" onclick="openLightbox('https://images.unsplash.com/photo-1506905925346-21bda4d32df4?w=1200')">
+                <div class="photo-wrapper">
+                    <img src="https://images.unsplash.com/photo-1506905925346-21bda4d32df4?w=800" alt="Mountain Vista 1">
+                </div>
+                <div class="photo-info">
+                    <div class="photo-title">Photo 1 </div>
+                    <div class="photo-description">Description photo 1</div>
+                </div>
+            </div>
+
+            <!-- Add more mountain photos as needed -->
+        </div>
+    </div>
+
+    <!-- Lightbox -->
+    <div class="lightbox" id="lightbox" onclick="closeLightbox(event)">
+        <div class="lightbox-content">
+            <button class="lightbox-close" onclick="closeLightbox(event)">&times;</button>
+            <img id="lightbox-img" src="" alt="Full size image">
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
