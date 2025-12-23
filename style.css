@@ -168,8 +168,8 @@ h1 {
     display: inline-block;
     margin: 20px;
     padding: 12px 24px;
-    background: white;
-    color: #667eea;
+    background: rgb(0, 0, 0);
+    color: #ffffff;
     text-decoration: none;
     border-radius: 8px;
     font-weight: 600;
